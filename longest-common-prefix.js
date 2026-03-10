@@ -34,7 +34,7 @@
 
 // console.log(longestCommonPrefix(["flower", "flow", "flight"]));
 
-function test(s){
+function longestCommonPrefix(s){
     if(!s.length) return "";
     let prefix = s[0];
     for(let i=0; i < s.length; i++){
@@ -46,4 +46,4 @@ function test(s){
     return prefix;
 }
 
-console.log(test(["flower", "fought", "flight"]));
+console.log(longestCommonPrefix(["flower", "fought", "flight"]));
